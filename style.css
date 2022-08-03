@@ -1,0 +1,150 @@
+/*
+Theme Name: Ryo Fujiwara's Template
+Theme URI: https://ryo-fujiwara.netlify.app
+Author: Ryo Fujiwara
+Author URI: https://ryo-fujiwara.netlify.app
+Description: My Theme
+Version: 1.0
+License: Free
+License URI: https://ryo-fujiwara.netlify.app
+*/
+
+
+body {
+  background:rgb(174, 160, 160) !important;
+  padding-top:70px;
+}
+
+.dropdown-menu {
+  font-size: small !important;
+}
+
+.navbar-brand img {
+  width:50px;
+}
+
+.card {
+  box-shadow: 1px 3px 6px rgba(50,50,50,0.6);
+}
+
+a .link-button {
+  width:75%;
+  margin:4vh auto;
+  /* background:#fff; */
+  /* color:#000; */
+  padding:3vh 10px;
+  text-align: center;
+}
+
+.light {
+  background:rgb(227, 237, 223);
+  border:#000 1px solid;
+  box-shadow: 1px 3px 6px rgba(50,50,50,0.6);
+  color:#000;
+}
+
+.dark {
+  background:rgb(43, 43, 43);
+  border:#fff 1px solid;
+  box-shadow: 1px 3px 6px rgba(50,50,50,0.6);
+  color:#fff;
+}
+
+
+.nav-card {
+  background:#fff;
+  width:96%;
+  margin:20px auto;
+  padding:5px 10px;
+}
+
+.nav-card .img {
+  position:relative;
+}
+
+.nav-card .img .ext-link {
+  position:absolute;
+  bottom:2%;
+  right:2%;
+  background:rgba(232, 255, 25, 1);
+  border-radius: 5px;
+  padding:10px;
+  box-shadow: 1px 3px 5px rgba(50,50,50,0.6);
+}
+
+.nav-card .img .ext-link a {
+  color:#000;
+  text-decoration: none;
+}
+
+.nav-card .img .ext-link a:hover {
+  font-weight: bold;
+}
+
+.nav-card .text h3 a {
+  color:#000;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom:1px solid #5d2929;
+}
+
+.nav-card .text h3 {
+  font-size: 1.15em;
+  text-transform: uppercase;
+}
+
+.nav-card .text p {
+  font-size: 0.8em;
+  margin:0;
+  margin-bottom:10px;
+}
+
+
+.brand_and_items {
+  padding:30px 20px;
+  margin:4vh auto;
+}
+
+.brand_and_items .top-text h4 span em{
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.brand_and_items .top-text h4 span {
+  padding-bottom:3px;
+  border-bottom: 1px solid rgb(55, 55, 55);
+}
+
+.brand_and_items .top-text h4 {
+  margin-bottom:3vh;
+}
+
+.brand_and_items .top-text p {
+  font-size: 0.9em;
+  line-height: 2em;
+}
+
+.brand_and_items .inkarami-items h4 {
+  font-size: 1.15em;
+  text-align: center;
+}
+.brand_and_items .inkarami-items h4 span {
+  font-size: 0.7em;
+}
+
+.brand_and_items .inkarami-items h5, .brand_and_items .inkarami-items p {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.platinum {
+  background:#BEBFC1;
+}
+
+.premium {
+  background: #DEB949;
+}
+
+.headspa {
+  background: rgb(162, 142, 183);
+}
