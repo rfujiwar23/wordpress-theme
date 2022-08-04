@@ -103,6 +103,16 @@ a .link-button {
 .brand_and_items {
   padding:30px 20px;
   margin:4vh auto;
+  position:relative;
+  box-shadow: 1px 3px 6px rgba(50,50,50,0.6);
+}
+
+.brand_and_items .logo {
+  position:absolute;
+  top: 2%;
+  right: 2%;
+  width:100%;
+  max-width: 50px;
 }
 
 .brand_and_items .top-text h4 span em{
@@ -142,9 +152,69 @@ a .link-button {
 }
 
 .premium {
-  background: #DEB949;
+  background: rgb(232, 215, 166);
 }
 
 .headspa {
   background: rgb(162, 142, 183);
+}
+
+.two-column-image-link {
+  /* background:#fff; */
+  margin:8vh auto;
+}
+
+.two-column-image-link a {
+  color:#000;
+  text-decoration: none;
+}
+
+
+.two-column-image-link a:hover {
+  color:#000;
+  text-decoration: none;
+}
+
+.two-column-image-link a .text {
+  padding:20px 10px;
+  background: rgba(253, 255, 182, 0.8);
+}
+
+.two-column-image-link a .text h5 {
+  font-size: 1.25em;
+  margin-bottom:20px;
+}
+
+.two-column-image-link a .text h5 span {
+  padding-bottom: 3px;
+  border-bottom:1px solid #ad300a;
+}
+
+.two-column-image-link a .text p {
+  font-size: 0.8em;
+}
+
+.jumbotron .top_banner {
+  aspect-ratio: 16/9;
+  position:relative;
+}
+
+.jumbotron .top_banner .banner-img {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:red;
+  display: flex;
+   align-items: center;
+
+
+
+}
+
+.jumbotron .top_banner .banner-img img {
+  height: 100%;
+
+
 }
